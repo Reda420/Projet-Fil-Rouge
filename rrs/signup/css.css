@@ -1,0 +1,32 @@
+.gradient-custom, .navbar {
+/* fallback for old browsers */
+background: #303030;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: #303030;
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #303030;
+}
+.bg{
+    background-color:#F4B425;
+    border-radius: 15px;
+}
+
+.nav-item{
+    margin-left: 60px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color: #F4B425;
+    font-weight: 600;
+    line-height: 29px;
+}

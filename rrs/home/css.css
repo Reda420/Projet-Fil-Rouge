@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Josefin+Sans:wght@100&display=swap');
+
+*{
+    text-decoration: none;
+}
+
+.mid-layout2{
+    animation: fadeInLeft 2s ease-in-out;
+    animation-delay: 2s;
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+  
+    to {
+     opacity: 1;
+    }
+}
+.main-layout{
+    width: 100%;
+    height:100vh;
+    background: url('../Home.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-holder {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-holder h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 100px;
+    line-height: 70px;
+    display: flex;
+    align-items: flex-end;
+    color: #F4B425;
+}
+.content-holder p {
+    font-style: bold;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #F4B425;
+}
+
+.gradient-custom, .navbar {
+    background: #303030;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    }
+
+.bg{
+    background-color:#F4B425;
+    border-radius: 15px;
+}
+   
+.content-holder2 {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    
+}
+
+.card-title0{
+    color: white;
+}
+
+.card-text0{
+    color: white;
+}
+
+.nav-item{
+    margin-left: 60px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color: #F4B425;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.mid-layout{
+    width: 95%;
+    height:80vh;
+    background: url('../yellowmid.png');
+    margin-left: 88px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid-layout2{
+    width: 45%;
+    height:60vh;
+    background: url('../wald.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 760px;
+}
+
+.mid-layout2 h1{
+    font-family: 'Hind', 'sans-serif';
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    right: 690px;
+    top: 220px;
+}
+
+.mid-layout3{
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+    position: relative;
+    right: 16px;
+} 
+
+.card-title {
+color: #F4B425;
+font-family: 'Hind', sans-serif;
+font-style: bold;
+font-weight: 700;
+font-size: 9rem;
+line-height: 154px;
+}
+.text-muted{
+font-family: 'Hind', sans-serif;
+color: white;
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 56px;
+}
+.card-deck .card{
+background: rgba(217, 217, 217, 0.057);
+}
+
+.rounded{
+width: 40px;
+height: 40px;
+}
+
+.bg{
+background: #303030;
+border-top: 1px solid #F4B425;
+border-radius: 0%;
+}
+
+.bg p {
+font-family: 'Josefin Sans', sans-serif;
+font-style: normal;
+color: white;
+font-weight: 600;
+font-size: 22px;
+line-height: 22px;
+}
+
+#loginLink{
+    margin: 20px;
+}
+
+/* section  a i {
+    background-color: #F4B425;
+} */
